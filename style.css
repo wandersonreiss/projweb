@@ -1,0 +1,346 @@
+/*css da pagina principal*/
+
+body{
+		font-family:'Montserrat', sans-serif;	
+}
+
+header {
+    background-image: linear-gradient(to right,  blue, rgb(124, 124, 236) ,white );
+	padding: 20px 0;
+
+  
+}
+
+
+.caixa{
+	position: relative;
+	width: 100%;
+	margin:0 auto;
+}
+
+.logo{
+	width: 200px;
+	height: 220px;
+	margin: 0 0 0 80px ;
+	border-radius: 80px;
+	padding: 40px;
+}
+
+
+nav{
+	position: absolute;
+	top: 120px;
+	right: 20%;
+
+}
+
+
+
+nav li{
+	display: inline;
+	margin: 0 0 0 15px ;
+}
+
+
+nav a{
+
+	text-transform: uppercase;
+	 color: #000000;
+	 font-weight: bold;
+	 font-size: 25px;
+	 text-decoration: none;
+}
+
+nav a:hover{
+	color: rgb(255, 0, 43);
+	transition: 1s;
+	text-decoration: underline;
+}
+
+
+.banner{
+	width:100%;
+	margin: auto;
+}
+
+.principal{
+	padding: 3em 0;
+	background: #eaeef3;
+	
+	line-height: 1.5;
+	
+}
+.principal-sobre{
+	width: 940px;
+	margin:  0 auto;
+}
+
+.principal p{
+	margin: 0 0 1em;
+
+	
+}
+
+.principal strong{
+	font-weight: bold;
+}
+
+.principal em{
+	font-style: italic;
+	font-weight: bold;
+}
+
+
+
+.titulo-principal{
+	text-align: center;
+	font-size: 2em;
+	margin: 1em;
+	clear: left;
+	
+	
+}
+
+.ferramentas{
+	width: 220px;
+	float: left;
+	margin: 20px;
+	margin: 0 20px 20px 0;
+}
+
+.mapa{
+	
+	padding: 3em 0;
+	background: linear-gradient(#eaeef3,rgb(174, 174, 230));
+	
+   }
+
+   
+   .mapa-conteudo{
+    width: 940px;
+	margin:  0 auto;
+   }
+
+   .beneficios {
+    padding: 20px;	
+	background: linear-gradient(rgb(174, 174, 230),rgb(124, 124, 236));
+}
+
+
+.beneficios-conteudo{
+	width: 940px;
+	margin: 0 auto;
+}
+
+
+.lista-beneficios{
+	display:inline-block;
+	vertical-align: top;
+	margin-right: 10%;
+	
+}
+
+
+.itens{
+	font-size: 18px;
+	vertical-align: top;
+	padding: 10px;
+
+}
+
+
+.itens:first-child {
+    font-weight: bold;
+}
+.itens:before {
+    content: "★";
+	margin: 0 5px;
+}
+
+
+
+.imagem-beneficios {
+    width: 40%;
+}
+
+.video{
+    margin: 3em 0 ;
+	margin-left: 15%;
+   }
+
+   footer{
+	background-image: linear-gradient(to left,  blue, rgb(124, 124, 236) ,white );
+	padding: 40px;
+	
+}
+
+.a2a_kit a2a_kit_size_32 a2a_default_style{
+	position: fixed;
+}
+/*css da pagina serviços*/
+
+.produtos{
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+  
+
+}
+
+.produtos li{
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	font-weight: bold;
+	font-size: 25px;
+	border-radius: 10px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	
+	
+	
+
+}
+
+
+.produtos :hover{
+font-size: 20px;
+font-weight: bold;
+transition: 2s;
+color: blue;
+
+}
+
+
+
+
+.titulo{
+   text-align: center;
+   font-size: 30px;
+   color: black;
+   font-weight: bold;
+   padding: 20px;
+
+  
+   
+}
+
+.solucao{
+	width:220px;
+	height: 200px;
+	margin-left: 500px;
+	border-radius: 40px;
+	margin-top: 30px;
+	background-image: linear-gradient(to right,  blue, rgb(124, 124, 236) ,white );
+    color: white;
+}
+
+
+.copyright{
+	color: white;
+	text-align: center;
+	padding: 20px;
+  }
+
+  /*css do formulario*/
+
+  .main-formulario{
+	width: 940px;
+	margin: auto;
+  }
+
+  form{
+	margin: 40px 0;
+	text-decoration: none;
+	
+  }
+
+  form label{
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+  }
+  form legend{
+	padding: 10px;
+	font-size: 20px;
+	margin-right: 0;
+  }
+  .input-padrao{
+	padding: 15px;
+	display: block;
+	margin: 0 0 10px;
+	padding: 10px 25px ;
+	width: 50%;
+	border-radius: 20px;
+	background: rgb(176, 176, 221);
+	border: none;
+	text-decoration: none;
+     
+  }
+  
+  
+  .checkbox{
+	margin: 20px 0;
+  }
+
+ .textarea{
+	border-radius: 10px;
+	background: rgb(176, 176, 221);
+	border: none;
+} 
+  
+.enviar{
+	width: 40%;
+	padding: 10px 0;
+	background: orange;
+	color: white;
+	border-radius: 20px;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+}
+
+.enviar:hover{
+	background: darkorange;
+	transition: 1s all;
+	cursor:pointer ;
+	transform: scale(1.2);
+}
+
+table{
+	margin: 20px 0 40px ;
+	
+}
+
+thead{
+	background: rgb(176, 176, 221);
+	color: black;
+	font-weight: bold;
+	
+}
+
+td,th{
+	border: 1px solid #000000;
+	padding:  8px 15px;
+}
+
+
+
+   .mapa p {
+	   margin: 0 0 2em;
+	   text-align: center;
+   }
+
+   
+   /*css da pagina contato*/
+
+   .titulo-horario{
+	font-weight: bold;
+	font-size: 18px;
+   }
+	
+   
+   
+
+
+ 
